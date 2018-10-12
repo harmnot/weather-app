@@ -1,0 +1,90 @@
+/*  color : #B352EB */
+/* font-family: 'Cairo', sans-serif; */
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+.container00 {
+  width: 400px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+  background: #abbaab;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.kurent {
+  font-size: 1.3em;
+}
+
+.kurent2 {
+  font-size: 1.2em;
+}
+
+.kurent3 {
+  font-size: 1.2em;
+}
+
+.icons {
+  width: 100px;
+  height: 100px;
+  background-color: #5352ed;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 15px;
+}
+
+th, td {
+  text-align: center;
+  padding: 33px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+  color: black;
+}
+
+th {
+  background-color: #5352ed;
+  color: white;
+  font-size: 20px;
+}
+
+.second {
+  background-color: coral;
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: translateX(-400px);
+  transition: transform 0.3s;
+  /* cubic-bezier (1, .02, .94, .56); */
+}
+
+.container00:hover .second {
+  transform: translateX(0px);
+}
