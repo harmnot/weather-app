@@ -3,7 +3,7 @@ let callApi     = `https://api.apixu.com/v1/forecast.json?key=${apiKey}&q=`; // 
 
 setTimeout(() => { // set time to stop the location
   navigator.geolocation.clearWatch(CheckLoc);
-}, 3000);  // if cant found your location, change the setTimeout 7000? 15000?
+}, 2000);  // if cant found your location, change the setTimeout 7000? 15000?
 
 const displayLocationInfo = position => { // to get position / call our position
 

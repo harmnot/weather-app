@@ -12,6 +12,7 @@ body {
 
 .container00 {
   width: 400px;
+  height: 320px;
   border: 1px solid grey;
   border-radius: 20px;
   text-align: center;
